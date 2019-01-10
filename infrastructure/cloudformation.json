@@ -321,6 +321,7 @@
                                 },
                                 {
                                     "Action": [
+                                        "iam:GetRole",
                                         "iam:ListRoles",
                                         "iam:ListRolePolicies",
                                         "iam:GetRolePolicy",
