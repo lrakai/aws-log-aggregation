@@ -2,7 +2,14 @@
     "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "Log Analysis with Elastic Stack",
     "Parameters": {},
-    "Mappings": {},
+    "Mappings": {
+        "UserConfig": {
+            "Login": {
+                "Name": "student",
+                "Pass": "password"
+            }
+        }
+    },
     "Resources": {
         "DynamoLambda": {
             "DependsOn": [
