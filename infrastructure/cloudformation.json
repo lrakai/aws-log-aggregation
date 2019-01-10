@@ -314,6 +314,8 @@
                                         "es:List*",
                                         "es:RemoveTags",
                                         "es:UpdateElasticsearchDomainConfig",
+                                        "es:GetCompatibleElasticsearchVersions",
+                                        "es:GetUpgradeHistory",
                                         "ec2:DescribeVpcs",
                                         "kms:ListAliases"
                                     ],
